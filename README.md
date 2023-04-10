@@ -52,12 +52,16 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
 
 ## 🛠️ Installation
 
-In the project directory `/back-end`, create a virtual environment:
+In the project directory `/back-end`:
+
+1 - Create your `.env` file with your `SECRET_KEY`
+
+2 - Create a virtual environment:
 ```
 python -m venv .upfit
 ```
 
-Activate the Virtual Environment:
+3 - Activate the Virtual Environment:
 
 - on Mac (bash/zsh)
 ```
@@ -69,26 +73,28 @@ source .upfit/bin/activate
 .upfit\Scripts\Activate.ps1
 ```
 
-Install the dependencies:
+4 - Install the dependencies:
 ```
 pip install -r requirements.txt
 ```
 
 ## 🌱 On Development
 
-In the project directory `/back-end`, activate the Virtual Environment:
+In the project directory `/back-end`:
+
+1 - Activate the Virtual Environment:
 
 - On Mac (bash/zsh)
 ```
-source .venv/bin/activate
+source .upfit/bin/activate
 ```
 
 - On Windows (PowerShell)
 ```
-.\.venv\Scripts\Activate.ps1
+.upfit\Scripts\Activate.ps1
 ```
 
-Run in the development mode:
+2 - Run in the development mode:
 ```
 python manage.py runserver
 ```
