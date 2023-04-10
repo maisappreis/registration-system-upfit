@@ -1,0 +1,10 @@
+Django==4.2
+djangorestframework==3.14.0
+urllib3==1.26.15
+charset_normalizer==3.1.0
+idna==3.4
+docopt==0.6.2
+pipreqs==0.4.11
+requests==2.28.2
+yarg==0.1.9
+django-cors-headers==3.14.0

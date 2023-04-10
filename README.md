@@ -2,7 +2,7 @@
 
 ## Project to register clients and control monthly payment of a functional training academy
 
-
+![image](https://user-images.githubusercontent.com/113925909/230952733-3c007b6e-9e1d-44c6-ba10-0f9a0679983f.png)
 
 # Front-end
 
@@ -54,22 +54,24 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
 
 In the project directory `/back-end`, create a virtual environment:
 ```
-python3 -m venv .venv
+python -m venv .upfit
 ```
 
-Activate the Virtual Environment on Mac (bash/zsh)
+Activate the Virtual Environment:
+
+- on Mac (bash/zsh)
 ```
-source .venv/bin/activate
+source .upfit/bin/activate
 ```
 
-Activate the Virtual Environment on Windows (PowerShell)
+- on Windows (PowerShell)
 ```
-.\.venv\Scripts\Activate.ps1
+.upfit\Scripts\Activate.ps1
 ```
 
 Install the dependencies:
 ```
-pip install requirement.txt
+pip install -r requirements.txt
 ```
 
 ## 🌱 On Development
@@ -88,5 +90,8 @@ source .venv/bin/activate
 
 Run in the development mode:
 ```
-python 
+python manage.py runserver
 ```
+
+- It runs the app in the development mode.
+- Open [http://127.0.0.1:8000/](http://127.0.0.1:8000/)
