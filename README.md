@@ -101,3 +101,32 @@ python manage.py runserver
 
 - It runs the app in the development mode.
 - Open [http://127.0.0.1:8000/](http://127.0.0.1:8000/)
+
+
+## 🌱 Run Migrations
+
+1. To create initial migrations:
+```
+python manage.py makemigrations
+```
+
+2. To apply migrations:
+```
+python manage.py migrate
+```
+
+3. To create and apply migrations for a specific app:
+```
+python manage.py makemigrations your_app_name
+python manage.py migrate your_app_name
+```
+
+4. To check the status of migrations:
+```
+python manage.py showmigrations
+```
+
+5. To undo the last migration:
+```
+python manage.py migrate your_app_name <migration_name>
+```
